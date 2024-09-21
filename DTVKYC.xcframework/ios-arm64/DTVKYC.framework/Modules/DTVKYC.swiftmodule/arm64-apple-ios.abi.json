@@ -1,0 +1,5332 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DTVKYC",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SystemConfiguration",
+        "printedName": "SystemConfiguration",
+        "declKind": "Import",
+        "moduleName": "DTVKYC"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "DTVKYC"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DTVKYC",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "DTVKYC"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DTVKYC",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DTVKYC",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "DTVKYC"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DTVKYC",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DTVKYCConfig",
+        "printedName": "DTVKYCConfig",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DTVKYCConfig",
+                "printedName": "DTVKYC.DTVKYCConfig",
+                "usr": "c:@M@DTVKYC@objc(cs)DTVKYCConfig"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@DTVKYC@objc(cs)DTVKYCConfig(im)init",
+            "mangledName": "$s6DTVKYC12DTVKYCConfigCACycfc",
+            "moduleName": "DTVKYC",
+            "overriding": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "setFirstName",
+            "printedName": "setFirstName(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@DTVKYC@objc(cs)DTVKYCConfig(im)setFirstName:",
+            "mangledName": "$s6DTVKYC12DTVKYCConfigC12setFirstNameyySSF",
+            "moduleName": "DTVKYC",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setLastName",
+            "printedName": "setLastName(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@DTVKYC@objc(cs)DTVKYCConfig(im)setLastName:",
+            "mangledName": "$s6DTVKYC12DTVKYCConfigC11setLastNameyySSF",
+            "moduleName": "DTVKYC",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setMobile",
+            "printedName": "setMobile(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@DTVKYC@objc(cs)DTVKYCConfig(im)setMobile:",
+            "mangledName": "$s6DTVKYC12DTVKYCConfigC9setMobileyySSF",
+            "moduleName": "DTVKYC",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setUniqueId",
+            "printedName": "setUniqueId(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@DTVKYC@objc(cs)DTVKYCConfig(im)setUniqueId:",
+            "mangledName": "$s6DTVKYC12DTVKYCConfigC11setUniqueIdyySSF",
+            "moduleName": "DTVKYC",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setEmail",
+            "printedName": "setEmail(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@DTVKYC@objc(cs)DTVKYCConfig(im)setEmail:",
+            "mangledName": "$s6DTVKYC12DTVKYCConfigC8setEmailyySSF",
+            "moduleName": "DTVKYC",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setAgentEmail",
+            "printedName": "setAgentEmail(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@DTVKYC@objc(cs)DTVKYCConfig(im)setAgentEmail:",
+            "mangledName": "$s6DTVKYC12DTVKYCConfigC13setAgentEmailyySSF",
+            "moduleName": "DTVKYC",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setSkipOkyc",
+            "printedName": "setSkipOkyc(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@DTVKYC@objc(cs)DTVKYCConfig(im)setSkipOkyc:",
+            "mangledName": "$s6DTVKYC12DTVKYCConfigC11setSkipOkycyySbF",
+            "moduleName": "DTVKYC",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setSendSms",
+            "printedName": "setSendSms(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@DTVKYC@objc(cs)DTVKYCConfig(im)setSendSms:",
+            "mangledName": "$s6DTVKYC12DTVKYCConfigC10setSendSmsyySbF",
+            "moduleName": "DTVKYC",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setSendEmail",
+            "printedName": "setSendEmail(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@DTVKYC@objc(cs)DTVKYCConfig(im)setSendEmail:",
+            "mangledName": "$s6DTVKYC12DTVKYCConfigC12setSendEmailyySbF",
+            "moduleName": "DTVKYC",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setRandomAssignment",
+            "printedName": "setRandomAssignment(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@DTVKYC@objc(cs)DTVKYCConfig(im)setRandomAssignment:",
+            "mangledName": "$s6DTVKYC12DTVKYCConfigC19setRandomAssignmentyySbF",
+            "moduleName": "DTVKYC",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@DTVKYC@objc(cs)DTVKYCConfig",
+        "mangledName": "$s6DTVKYC12DTVKYCConfigC",
+        "moduleName": "DTVKYC",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DTVKYC",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "DTVKYC"
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "DTVKYC"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "DTVKYC"
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "DTVKYC"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DTVKYCVC",
+        "printedName": "DTVKYCVC",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "launch",
+            "printedName": "launch(_:dtVkycConfig:completionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DTVKYCConfig",
+                "printedName": "DTVKYC.DTVKYCConfig",
+                "usr": "c:@M@DTVKYC@objc(cs)DTVKYCConfig"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DTVKYC.DTVkycException?, [Swift.String : Any]?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(DTVKYC.DTVkycException?, [Swift.String : Any]?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "DTVKYC.DTVkycException?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "DTVkycException",
+                            "printedName": "DTVKYC.DTVkycException",
+                            "usr": "c:@M@DTVKYC@objc(cs)DTVkycException"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "[Swift.String : Any]?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Dictionary",
+                            "printedName": "[Swift.String : Any]",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "ProtocolComposition",
+                                "printedName": "Any"
+                              }
+                            ],
+                            "usr": "s:SD"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@DTVKYC@objc(cs)DTVKYCVC(cm)launch:dtVkycConfig:completionHandler:",
+            "mangledName": "$s6DTVKYC8DTVKYCVCC6launch_12dtVkycConfig17completionHandlerySo16UIViewControllerC_AA12DTVKYCConfigCyAA15DTVkycExceptionCSg_SDySSypGSgtctFZ",
+            "moduleName": "DTVKYC",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "Custom",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "launchWithTransactionId",
+            "printedName": "launchWithTransactionId(_:transactionId:completionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DTVKYC.DTVkycException?, [Swift.String : Any]?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(DTVKYC.DTVkycException?, [Swift.String : Any]?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "DTVKYC.DTVkycException?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "DTVkycException",
+                            "printedName": "DTVKYC.DTVkycException",
+                            "usr": "c:@M@DTVKYC@objc(cs)DTVkycException"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "[Swift.String : Any]?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Dictionary",
+                            "printedName": "[Swift.String : Any]",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "ProtocolComposition",
+                                "printedName": "Any"
+                              }
+                            ],
+                            "usr": "s:SD"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@DTVKYC@objc(cs)DTVKYCVC(cm)launchWithTransactionId:transactionId:completionHandler:",
+            "mangledName": "$s6DTVKYC8DTVKYCVCC23launchWithTransactionId_011transactionF017completionHandlerySo16UIViewControllerC_SSyAA15DTVkycExceptionCSg_SDySSypGSgtctFZ",
+            "moduleName": "DTVKYC",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "Custom",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "viewDidLoad",
+            "printedName": "viewDidLoad()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@DTVKYC@objc(cs)DTVKYCVC(im)viewDidLoad",
+            "mangledName": "$s6DTVKYC8DTVKYCVCC11viewDidLoadyyF",
+            "moduleName": "DTVKYC",
+            "overriding": true,
+            "objc_name": "viewDidLoad",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl",
+              "Override",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "webView",
+            "printedName": "webView(_:didStartProvisionalNavigation:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKWebView",
+                "printedName": "WebKit.WKWebView",
+                "usr": "c:objc(cs)WKWebView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "WebKit.WKNavigation?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WKNavigation",
+                    "printedName": "WebKit.WKNavigation",
+                    "usr": "c:objc(cs)WKNavigation"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@DTVKYC@objc(cs)DTVKYCVC(im)webView:didStartProvisionalNavigation:",
+            "mangledName": "$s6DTVKYC8DTVKYCVCC7webView_29didStartProvisionalNavigationySo05WKWebD0C_So12WKNavigationCSgtF",
+            "moduleName": "DTVKYC",
+            "objc_name": "webView:didStartProvisionalNavigation:",
+            "declAttributes": [
+              "ObjC",
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "webView",
+            "printedName": "webView(_:didFinish:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKWebView",
+                "printedName": "WebKit.WKWebView",
+                "usr": "c:objc(cs)WKWebView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "WebKit.WKNavigation?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WKNavigation",
+                    "printedName": "WebKit.WKNavigation",
+                    "usr": "c:objc(cs)WKNavigation"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@DTVKYC@objc(cs)DTVKYCVC(im)webView:didFinishNavigation:",
+            "mangledName": "$s6DTVKYC8DTVKYCVCC7webView_9didFinishySo05WKWebD0C_So12WKNavigationCSgtF",
+            "moduleName": "DTVKYC",
+            "objc_name": "webView:didFinishNavigation:",
+            "declAttributes": [
+              "ObjC",
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "webView",
+            "printedName": "webView(_:didFail:withError:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKWebView",
+                "printedName": "WebKit.WKWebView",
+                "usr": "c:objc(cs)WKWebView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "WebKit.WKNavigation?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WKNavigation",
+                    "printedName": "WebKit.WKNavigation",
+                    "usr": "c:objc(cs)WKNavigation"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Error",
+                "printedName": "any Swift.Error",
+                "usr": "s:s5ErrorP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@DTVKYC@objc(cs)DTVKYCVC(im)webView:didFailNavigation:withError:",
+            "mangledName": "$s6DTVKYC8DTVKYCVCC7webView_7didFail9withErrorySo05WKWebD0C_So12WKNavigationCSgs0H0_ptF",
+            "moduleName": "DTVKYC",
+            "objc_name": "webView:didFailNavigation:withError:",
+            "declAttributes": [
+              "ObjC",
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "webView",
+            "printedName": "webView(_:didFailProvisionalNavigation:withError:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKWebView",
+                "printedName": "WebKit.WKWebView",
+                "usr": "c:objc(cs)WKWebView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "WebKit.WKNavigation?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WKNavigation",
+                    "printedName": "WebKit.WKNavigation",
+                    "usr": "c:objc(cs)WKNavigation"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Error",
+                "printedName": "any Swift.Error",
+                "usr": "s:s5ErrorP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@DTVKYC@objc(cs)DTVKYCVC(im)webView:didFailProvisionalNavigation:withError:",
+            "mangledName": "$s6DTVKYC8DTVKYCVCC7webView_28didFailProvisionalNavigation9withErrorySo05WKWebD0C_So12WKNavigationCSgs0J0_ptF",
+            "moduleName": "DTVKYC",
+            "objc_name": "webView:didFailProvisionalNavigation:withError:",
+            "declAttributes": [
+              "ObjC",
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "viewWillDisappear",
+            "printedName": "viewWillDisappear(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@DTVKYC@objc(cs)DTVKYCVC(im)viewWillDisappear:",
+            "mangledName": "$s6DTVKYC8DTVKYCVCC17viewWillDisappearyySbF",
+            "moduleName": "DTVKYC",
+            "overriding": true,
+            "objc_name": "viewWillDisappear:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(nibName:bundle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DTVKYCVC",
+                "printedName": "DTVKYC.DTVKYCVC",
+                "usr": "c:@M@DTVKYC@objc(cs)DTVKYCVC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Bundle?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bundle",
+                    "printedName": "Foundation.Bundle",
+                    "usr": "c:objc(cs)NSBundle"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@DTVKYC@objc(cs)DTVKYCVC(im)initWithNibName:bundle:",
+            "mangledName": "$s6DTVKYC8DTVKYCVCC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
+            "moduleName": "DTVKYC",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithNibName:bundle:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "DTVKYC.DTVKYCVC?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DTVKYCVC",
+                    "printedName": "DTVKYC.DTVKYCVC",
+                    "usr": "c:@M@DTVKYC@objc(cs)DTVKYCVC"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@DTVKYC@objc(cs)DTVKYCVC(im)initWithCoder:",
+            "mangledName": "$s6DTVKYC8DTVKYCVCC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "DTVKYC",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@DTVKYC@objc(cs)DTVKYCVC",
+        "mangledName": "$s6DTVKYC8DTVKYCVCC",
+        "moduleName": "DTVKYC",
+        "declAttributes": [
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIViewController",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIViewController",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DTVKYC",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "DTVKYC"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DTVkycException",
+        "printedName": "DTVkycException",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "getErrorCode",
+            "printedName": "getErrorCode()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.NSNumber?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSNumber",
+                    "printedName": "Foundation.NSNumber",
+                    "usr": "c:objc(cs)NSNumber"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@DTVKYC@objc(cs)DTVkycException(im)getErrorCode",
+            "mangledName": "$s6DTVKYC15DTVkycExceptionC12getErrorCodeSo8NSNumberCSgyF",
+            "moduleName": "DTVKYC",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getErrorMessage",
+            "printedName": "getErrorMessage()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.NSString?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSString",
+                    "printedName": "Foundation.NSString",
+                    "usr": "c:objc(cs)NSString"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@DTVKYC@objc(cs)DTVkycException(im)getErrorMessage",
+            "mangledName": "$s6DTVKYC15DTVkycExceptionC15getErrorMessageSo8NSStringCSgyF",
+            "moduleName": "DTVKYC",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DTVkycException",
+                "printedName": "DTVKYC.DTVkycException",
+                "usr": "c:@M@DTVKYC@objc(cs)DTVkycException"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@DTVKYC@objc(cs)DTVkycException(im)init",
+            "mangledName": "$s6DTVKYC15DTVkycExceptionCACycfc",
+            "moduleName": "DTVKYC",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@DTVKYC@objc(cs)DTVkycException",
+        "mangledName": "$s6DTVKYC15DTVkycExceptionC",
+        "moduleName": "DTVKYC",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ErrorCode",
+        "printedName": "ErrorCode",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "INVALID_INPUT",
+            "printedName": "INVALID_INPUT",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DTVKYC.ErrorCode.Type) -> DTVKYC.ErrorCode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ErrorCode",
+                    "printedName": "DTVKYC.ErrorCode",
+                    "usr": "s:6DTVKYC9ErrorCodeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DTVKYC.ErrorCode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ErrorCode",
+                        "printedName": "DTVKYC.ErrorCode",
+                        "usr": "s:6DTVKYC9ErrorCodeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6DTVKYC9ErrorCodeO13INVALID_INPUTyA2CmF",
+            "mangledName": "$s6DTVKYC9ErrorCodeO13INVALID_INPUTyA2CmF",
+            "moduleName": "DTVKYC"
+          },
+          {
+            "kind": "Var",
+            "name": "INIT_NOT_CALLED",
+            "printedName": "INIT_NOT_CALLED",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DTVKYC.ErrorCode.Type) -> DTVKYC.ErrorCode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ErrorCode",
+                    "printedName": "DTVKYC.ErrorCode",
+                    "usr": "s:6DTVKYC9ErrorCodeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DTVKYC.ErrorCode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ErrorCode",
+                        "printedName": "DTVKYC.ErrorCode",
+                        "usr": "s:6DTVKYC9ErrorCodeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6DTVKYC9ErrorCodeO15INIT_NOT_CALLEDyA2CmF",
+            "mangledName": "$s6DTVKYC9ErrorCodeO15INIT_NOT_CALLEDyA2CmF",
+            "moduleName": "DTVKYC"
+          },
+          {
+            "kind": "Var",
+            "name": "USER_CANCELLED",
+            "printedName": "USER_CANCELLED",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DTVKYC.ErrorCode.Type) -> DTVKYC.ErrorCode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ErrorCode",
+                    "printedName": "DTVKYC.ErrorCode",
+                    "usr": "s:6DTVKYC9ErrorCodeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DTVKYC.ErrorCode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ErrorCode",
+                        "printedName": "DTVKYC.ErrorCode",
+                        "usr": "s:6DTVKYC9ErrorCodeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6DTVKYC9ErrorCodeO14USER_CANCELLEDyA2CmF",
+            "mangledName": "$s6DTVKYC9ErrorCodeO14USER_CANCELLEDyA2CmF",
+            "moduleName": "DTVKYC"
+          },
+          {
+            "kind": "Var",
+            "name": "INTERNAL_ERROR",
+            "printedName": "INTERNAL_ERROR",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DTVKYC.ErrorCode.Type) -> DTVKYC.ErrorCode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ErrorCode",
+                    "printedName": "DTVKYC.ErrorCode",
+                    "usr": "s:6DTVKYC9ErrorCodeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DTVKYC.ErrorCode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ErrorCode",
+                        "printedName": "DTVKYC.ErrorCode",
+                        "usr": "s:6DTVKYC9ErrorCodeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6DTVKYC9ErrorCodeO14INTERNAL_ERRORyA2CmF",
+            "mangledName": "$s6DTVKYC9ErrorCodeO14INTERNAL_ERRORyA2CmF",
+            "moduleName": "DTVKYC"
+          },
+          {
+            "kind": "Var",
+            "name": "PERMISSION_NOT_GRANTED",
+            "printedName": "PERMISSION_NOT_GRANTED",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DTVKYC.ErrorCode.Type) -> DTVKYC.ErrorCode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ErrorCode",
+                    "printedName": "DTVKYC.ErrorCode",
+                    "usr": "s:6DTVKYC9ErrorCodeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DTVKYC.ErrorCode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ErrorCode",
+                        "printedName": "DTVKYC.ErrorCode",
+                        "usr": "s:6DTVKYC9ErrorCodeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6DTVKYC9ErrorCodeO22PERMISSION_NOT_GRANTEDyA2CmF",
+            "mangledName": "$s6DTVKYC9ErrorCodeO22PERMISSION_NOT_GRANTEDyA2CmF",
+            "moduleName": "DTVKYC"
+          },
+          {
+            "kind": "Var",
+            "name": "SERVER_ERROR",
+            "printedName": "SERVER_ERROR",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DTVKYC.ErrorCode.Type) -> DTVKYC.ErrorCode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ErrorCode",
+                    "printedName": "DTVKYC.ErrorCode",
+                    "usr": "s:6DTVKYC9ErrorCodeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DTVKYC.ErrorCode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ErrorCode",
+                        "printedName": "DTVKYC.ErrorCode",
+                        "usr": "s:6DTVKYC9ErrorCodeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6DTVKYC9ErrorCodeO12SERVER_ERRORyA2CmF",
+            "mangledName": "$s6DTVKYC9ErrorCodeO12SERVER_ERRORyA2CmF",
+            "moduleName": "DTVKYC"
+          },
+          {
+            "kind": "Var",
+            "name": "INTERNET_NOT_CONNECTED",
+            "printedName": "INTERNET_NOT_CONNECTED",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DTVKYC.ErrorCode.Type) -> DTVKYC.ErrorCode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ErrorCode",
+                    "printedName": "DTVKYC.ErrorCode",
+                    "usr": "s:6DTVKYC9ErrorCodeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DTVKYC.ErrorCode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ErrorCode",
+                        "printedName": "DTVKYC.ErrorCode",
+                        "usr": "s:6DTVKYC9ErrorCodeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6DTVKYC9ErrorCodeO22INTERNET_NOT_CONNECTEDyA2CmF",
+            "mangledName": "$s6DTVKYC9ErrorCodeO22INTERNET_NOT_CONNECTEDyA2CmF",
+            "moduleName": "DTVKYC"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "DTVKYC.ErrorCode?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ErrorCode",
+                    "printedName": "DTVKYC.ErrorCode",
+                    "usr": "s:6DTVKYC9ErrorCodeO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:6DTVKYC9ErrorCodeO8rawValueACSgSi_tcfc",
+            "mangledName": "$s6DTVKYC9ErrorCodeO8rawValueACSgSi_tcfc",
+            "moduleName": "DTVKYC",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6DTVKYC9ErrorCodeO8rawValueSivp",
+            "mangledName": "$s6DTVKYC9ErrorCodeO8rawValueSivp",
+            "moduleName": "DTVKYC",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6DTVKYC9ErrorCodeO8rawValueSivg",
+                "mangledName": "$s6DTVKYC9ErrorCodeO8rawValueSivg",
+                "moduleName": "DTVKYC",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:6DTVKYC9ErrorCodeO",
+        "mangledName": "$s6DTVKYC9ErrorCodeO",
+        "moduleName": "DTVKYC",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ErrorMessage",
+        "printedName": "ErrorMessage",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "INVALID_INPUT",
+            "printedName": "INVALID_INPUT",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DTVKYC.ErrorMessage.Type) -> DTVKYC.ErrorMessage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ErrorMessage",
+                    "printedName": "DTVKYC.ErrorMessage",
+                    "usr": "s:6DTVKYC12ErrorMessageO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DTVKYC.ErrorMessage.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ErrorMessage",
+                        "printedName": "DTVKYC.ErrorMessage",
+                        "usr": "s:6DTVKYC12ErrorMessageO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6DTVKYC12ErrorMessageO13INVALID_INPUTyA2CmF",
+            "mangledName": "$s6DTVKYC12ErrorMessageO13INVALID_INPUTyA2CmF",
+            "moduleName": "DTVKYC"
+          },
+          {
+            "kind": "Var",
+            "name": "INIT_NOT_CALLED",
+            "printedName": "INIT_NOT_CALLED",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DTVKYC.ErrorMessage.Type) -> DTVKYC.ErrorMessage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ErrorMessage",
+                    "printedName": "DTVKYC.ErrorMessage",
+                    "usr": "s:6DTVKYC12ErrorMessageO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DTVKYC.ErrorMessage.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ErrorMessage",
+                        "printedName": "DTVKYC.ErrorMessage",
+                        "usr": "s:6DTVKYC12ErrorMessageO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6DTVKYC12ErrorMessageO15INIT_NOT_CALLEDyA2CmF",
+            "mangledName": "$s6DTVKYC12ErrorMessageO15INIT_NOT_CALLEDyA2CmF",
+            "moduleName": "DTVKYC"
+          },
+          {
+            "kind": "Var",
+            "name": "USER_CANCELLED",
+            "printedName": "USER_CANCELLED",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DTVKYC.ErrorMessage.Type) -> DTVKYC.ErrorMessage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ErrorMessage",
+                    "printedName": "DTVKYC.ErrorMessage",
+                    "usr": "s:6DTVKYC12ErrorMessageO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DTVKYC.ErrorMessage.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ErrorMessage",
+                        "printedName": "DTVKYC.ErrorMessage",
+                        "usr": "s:6DTVKYC12ErrorMessageO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6DTVKYC12ErrorMessageO14USER_CANCELLEDyA2CmF",
+            "mangledName": "$s6DTVKYC12ErrorMessageO14USER_CANCELLEDyA2CmF",
+            "moduleName": "DTVKYC"
+          },
+          {
+            "kind": "Var",
+            "name": "INTERNAL_ERROR",
+            "printedName": "INTERNAL_ERROR",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DTVKYC.ErrorMessage.Type) -> DTVKYC.ErrorMessage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ErrorMessage",
+                    "printedName": "DTVKYC.ErrorMessage",
+                    "usr": "s:6DTVKYC12ErrorMessageO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DTVKYC.ErrorMessage.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ErrorMessage",
+                        "printedName": "DTVKYC.ErrorMessage",
+                        "usr": "s:6DTVKYC12ErrorMessageO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6DTVKYC12ErrorMessageO14INTERNAL_ERRORyA2CmF",
+            "mangledName": "$s6DTVKYC12ErrorMessageO14INTERNAL_ERRORyA2CmF",
+            "moduleName": "DTVKYC"
+          },
+          {
+            "kind": "Var",
+            "name": "PERMISSION_NOT_GRANTED",
+            "printedName": "PERMISSION_NOT_GRANTED",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DTVKYC.ErrorMessage.Type) -> DTVKYC.ErrorMessage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ErrorMessage",
+                    "printedName": "DTVKYC.ErrorMessage",
+                    "usr": "s:6DTVKYC12ErrorMessageO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DTVKYC.ErrorMessage.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ErrorMessage",
+                        "printedName": "DTVKYC.ErrorMessage",
+                        "usr": "s:6DTVKYC12ErrorMessageO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6DTVKYC12ErrorMessageO22PERMISSION_NOT_GRANTEDyA2CmF",
+            "mangledName": "$s6DTVKYC12ErrorMessageO22PERMISSION_NOT_GRANTEDyA2CmF",
+            "moduleName": "DTVKYC"
+          },
+          {
+            "kind": "Var",
+            "name": "SERVER_ERROR",
+            "printedName": "SERVER_ERROR",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DTVKYC.ErrorMessage.Type) -> DTVKYC.ErrorMessage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ErrorMessage",
+                    "printedName": "DTVKYC.ErrorMessage",
+                    "usr": "s:6DTVKYC12ErrorMessageO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DTVKYC.ErrorMessage.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ErrorMessage",
+                        "printedName": "DTVKYC.ErrorMessage",
+                        "usr": "s:6DTVKYC12ErrorMessageO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6DTVKYC12ErrorMessageO12SERVER_ERRORyA2CmF",
+            "mangledName": "$s6DTVKYC12ErrorMessageO12SERVER_ERRORyA2CmF",
+            "moduleName": "DTVKYC"
+          },
+          {
+            "kind": "Var",
+            "name": "INTERNET_NOT_CONNECTED",
+            "printedName": "INTERNET_NOT_CONNECTED",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DTVKYC.ErrorMessage.Type) -> DTVKYC.ErrorMessage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ErrorMessage",
+                    "printedName": "DTVKYC.ErrorMessage",
+                    "usr": "s:6DTVKYC12ErrorMessageO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DTVKYC.ErrorMessage.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ErrorMessage",
+                        "printedName": "DTVKYC.ErrorMessage",
+                        "usr": "s:6DTVKYC12ErrorMessageO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6DTVKYC12ErrorMessageO22INTERNET_NOT_CONNECTEDyA2CmF",
+            "mangledName": "$s6DTVKYC12ErrorMessageO22INTERNET_NOT_CONNECTEDyA2CmF",
+            "moduleName": "DTVKYC"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "DTVKYC.ErrorMessage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ErrorMessage",
+                    "printedName": "DTVKYC.ErrorMessage",
+                    "usr": "s:6DTVKYC12ErrorMessageO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:6DTVKYC12ErrorMessageO8rawValueACSgSS_tcfc",
+            "mangledName": "$s6DTVKYC12ErrorMessageO8rawValueACSgSS_tcfc",
+            "moduleName": "DTVKYC",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6DTVKYC12ErrorMessageO8rawValueSSvp",
+            "mangledName": "$s6DTVKYC12ErrorMessageO8rawValueSSvp",
+            "moduleName": "DTVKYC",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6DTVKYC12ErrorMessageO8rawValueSSvg",
+                "mangledName": "$s6DTVKYC12ErrorMessageO8rawValueSSvg",
+                "moduleName": "DTVKYC",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:6DTVKYC12ErrorMessageO",
+        "mangledName": "$s6DTVKYC12ErrorMessageO",
+        "moduleName": "DTVKYC",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DTVKYC",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DTVKYCSDK",
+        "printedName": "DTVKYCSDK",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "initialize",
+            "printedName": "initialize(clientId:clientSecret:environment:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DTEnvironment",
+                "printedName": "DTVKYC.DTEnvironment",
+                "usr": "c:@M@DTVKYC@E@DTEnvironment"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@DTVKYC@objc(cs)DTVKYCSDK(cm)initializeWithClientId:clientSecret:environment:error:",
+            "mangledName": "$s6DTVKYC9DTVKYCSDKC10initialize8clientId0D6Secret11environmentySS_SSAA13DTEnvironmentOtKFZ",
+            "moduleName": "DTVKYC",
+            "static": true,
+            "objc_name": "initializeWithClientId:clientSecret:environment:error:",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DTVKYCSDK",
+                "printedName": "DTVKYC.DTVKYCSDK",
+                "usr": "c:@M@DTVKYC@objc(cs)DTVKYCSDK"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@DTVKYC@objc(cs)DTVKYCSDK(im)init",
+            "mangledName": "$s6DTVKYC9DTVKYCSDKCACycfc",
+            "moduleName": "DTVKYC",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@DTVKYC@objc(cs)DTVKYCSDK",
+        "mangledName": "$s6DTVKYC9DTVKYCSDKC",
+        "moduleName": "DTVKYC",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DTVKYC",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "DTVKYC"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DTVKYC",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DTVKYC",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "DTVKYC"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DTEnvironment",
+        "printedName": "DTEnvironment",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "PRODUCTION",
+            "printedName": "PRODUCTION",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DTVKYC.DTEnvironment.Type) -> DTVKYC.DTEnvironment",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DTEnvironment",
+                    "printedName": "DTVKYC.DTEnvironment",
+                    "usr": "c:@M@DTVKYC@E@DTEnvironment"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DTVKYC.DTEnvironment.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DTEnvironment",
+                        "printedName": "DTVKYC.DTEnvironment",
+                        "usr": "c:@M@DTVKYC@E@DTEnvironment"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@DTVKYC@E@DTEnvironment@DTEnvironmentPRODUCTION",
+            "mangledName": "$s6DTVKYC13DTEnvironmentO10PRODUCTIONyA2CmF",
+            "moduleName": "DTVKYC",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 0
+          },
+          {
+            "kind": "Var",
+            "name": "UAT",
+            "printedName": "UAT",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DTVKYC.DTEnvironment.Type) -> DTVKYC.DTEnvironment",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DTEnvironment",
+                    "printedName": "DTVKYC.DTEnvironment",
+                    "usr": "c:@M@DTVKYC@E@DTEnvironment"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DTVKYC.DTEnvironment.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DTEnvironment",
+                        "printedName": "DTVKYC.DTEnvironment",
+                        "usr": "c:@M@DTVKYC@E@DTEnvironment"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@DTVKYC@E@DTEnvironment@DTEnvironmentUAT",
+            "mangledName": "$s6DTVKYC13DTEnvironmentO3UATyA2CmF",
+            "moduleName": "DTVKYC",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 1
+          },
+          {
+            "kind": "Var",
+            "name": "STAGE",
+            "printedName": "STAGE",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DTVKYC.DTEnvironment.Type) -> DTVKYC.DTEnvironment",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DTEnvironment",
+                    "printedName": "DTVKYC.DTEnvironment",
+                    "usr": "c:@M@DTVKYC@E@DTEnvironment"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DTVKYC.DTEnvironment.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DTEnvironment",
+                        "printedName": "DTVKYC.DTEnvironment",
+                        "usr": "c:@M@DTVKYC@E@DTEnvironment"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@DTVKYC@E@DTEnvironment@DTEnvironmentSTAGE",
+            "mangledName": "$s6DTVKYC13DTEnvironmentO5STAGEyA2CmF",
+            "moduleName": "DTVKYC",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 2
+          },
+          {
+            "kind": "Var",
+            "name": "DEV",
+            "printedName": "DEV",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DTVKYC.DTEnvironment.Type) -> DTVKYC.DTEnvironment",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DTEnvironment",
+                    "printedName": "DTVKYC.DTEnvironment",
+                    "usr": "c:@M@DTVKYC@E@DTEnvironment"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DTVKYC.DTEnvironment.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DTEnvironment",
+                        "printedName": "DTVKYC.DTEnvironment",
+                        "usr": "c:@M@DTVKYC@E@DTEnvironment"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@DTVKYC@E@DTEnvironment@DTEnvironmentDEV",
+            "mangledName": "$s6DTVKYC13DTEnvironmentO3DEVyA2CmF",
+            "moduleName": "DTVKYC",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 3
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "DTVKYC.DTEnvironment?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DTEnvironment",
+                    "printedName": "DTVKYC.DTEnvironment",
+                    "usr": "c:@M@DTVKYC@E@DTEnvironment"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:6DTVKYC13DTEnvironmentO8rawValueACSgSS_tcfc",
+            "mangledName": "$s6DTVKYC13DTEnvironmentO8rawValueACSgSS_tcfc",
+            "moduleName": "DTVKYC",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6DTVKYC13DTEnvironmentO8rawValueSSvp",
+            "mangledName": "$s6DTVKYC13DTEnvironmentO8rawValueSSvp",
+            "moduleName": "DTVKYC",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6DTVKYC13DTEnvironmentO8rawValueSSvg",
+                "mangledName": "$s6DTVKYC13DTEnvironmentO8rawValueSSvg",
+                "moduleName": "DTVKYC",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "c:@M@DTVKYC@E@DTEnvironment",
+        "mangledName": "$s6DTVKYC13DTEnvironmentO",
+        "moduleName": "DTVKYC",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DTVKYC",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "DTVKYC"
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "DTVKYC"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DTVKYC",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "DTVKYC"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DTVKYC",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "EventKit",
+        "printedName": "EventKit",
+        "declKind": "Import",
+        "moduleName": "DTVKYC"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DTVKYC",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "DTVKYC"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DTVKYC"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "DTVKYC"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LocationHelper",
+        "printedName": "LocationHelper",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "locationUpdated",
+            "printedName": "locationUpdated",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((CoreLocation.CLLocation) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(CoreLocation.CLLocation) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CLLocation",
+                        "printedName": "CoreLocation.CLLocation",
+                        "usr": "c:objc(cs)CLLocation"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6DTVKYC14LocationHelperC15locationUpdatedySo10CLLocationCcSgvp",
+            "mangledName": "$s6DTVKYC14LocationHelperC15locationUpdatedySo10CLLocationCcSgvp",
+            "moduleName": "DTVKYC",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((CoreLocation.CLLocation) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(CoreLocation.CLLocation) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CLLocation",
+                            "printedName": "CoreLocation.CLLocation",
+                            "usr": "c:objc(cs)CLLocation"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6DTVKYC14LocationHelperC15locationUpdatedySo10CLLocationCcSgvg",
+                "mangledName": "$s6DTVKYC14LocationHelperC15locationUpdatedySo10CLLocationCcSgvg",
+                "moduleName": "DTVKYC",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((CoreLocation.CLLocation) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(CoreLocation.CLLocation) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CLLocation",
+                            "printedName": "CoreLocation.CLLocation",
+                            "usr": "c:objc(cs)CLLocation"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6DTVKYC14LocationHelperC15locationUpdatedySo10CLLocationCcSgvs",
+                "mangledName": "$s6DTVKYC14LocationHelperC15locationUpdatedySo10CLLocationCcSgvs",
+                "moduleName": "DTVKYC",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6DTVKYC14LocationHelperC15locationUpdatedySo10CLLocationCcSgvM",
+                "mangledName": "$s6DTVKYC14LocationHelperC15locationUpdatedySo10CLLocationCcSgvM",
+                "moduleName": "DTVKYC",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "permissionDenied",
+            "printedName": "permissionDenied",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6DTVKYC14LocationHelperC16permissionDeniedyycSgvp",
+            "mangledName": "$s6DTVKYC14LocationHelperC16permissionDeniedyycSgvp",
+            "moduleName": "DTVKYC",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6DTVKYC14LocationHelperC16permissionDeniedyycSgvg",
+                "mangledName": "$s6DTVKYC14LocationHelperC16permissionDeniedyycSgvg",
+                "moduleName": "DTVKYC",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6DTVKYC14LocationHelperC16permissionDeniedyycSgvs",
+                "mangledName": "$s6DTVKYC14LocationHelperC16permissionDeniedyycSgvs",
+                "moduleName": "DTVKYC",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6DTVKYC14LocationHelperC16permissionDeniedyycSgvM",
+                "mangledName": "$s6DTVKYC14LocationHelperC16permissionDeniedyycSgvM",
+                "moduleName": "DTVKYC",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LocationHelper",
+                "printedName": "DTVKYC.LocationHelper",
+                "usr": "c:@M@DTVKYC@objc(cs)LocationHelper"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6DTVKYC14LocationHelperC6sharedACvpZ",
+            "mangledName": "$s6DTVKYC14LocationHelperC6sharedACvpZ",
+            "moduleName": "DTVKYC",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LocationHelper",
+                    "printedName": "DTVKYC.LocationHelper",
+                    "usr": "c:@M@DTVKYC@objc(cs)LocationHelper"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6DTVKYC14LocationHelperC6sharedACvgZ",
+                "mangledName": "$s6DTVKYC14LocationHelperC6sharedACvgZ",
+                "moduleName": "DTVKYC",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "requestLocationAccess",
+            "printedName": "requestLocationAccess()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6DTVKYC14LocationHelperC07requestB6AccessyyF",
+            "mangledName": "$s6DTVKYC14LocationHelperC07requestB6AccessyyF",
+            "moduleName": "DTVKYC",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "locationManager",
+            "printedName": "locationManager(_:didChangeAuthorization:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CLLocationManager",
+                "printedName": "CoreLocation.CLLocationManager",
+                "usr": "c:objc(cs)CLLocationManager"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CLAuthorizationStatus",
+                "printedName": "CoreLocation.CLAuthorizationStatus",
+                "usr": "c:@E@CLAuthorizationStatus"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@DTVKYC@objc(cs)LocationHelper(im)locationManager:didChangeAuthorizationStatus:",
+            "mangledName": "$s6DTVKYC14LocationHelperC15locationManager_22didChangeAuthorizationySo010CLLocationE0C_So21CLAuthorizationStatusVtF",
+            "moduleName": "DTVKYC",
+            "objc_name": "locationManager:didChangeAuthorizationStatus:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "locationManager",
+            "printedName": "locationManager(_:didUpdateLocations:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CLLocationManager",
+                "printedName": "CoreLocation.CLLocationManager",
+                "usr": "c:objc(cs)CLLocationManager"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[CoreLocation.CLLocation]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CLLocation",
+                    "printedName": "CoreLocation.CLLocation",
+                    "usr": "c:objc(cs)CLLocation"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@DTVKYC@objc(cs)LocationHelper(im)locationManager:didUpdateLocations:",
+            "mangledName": "$s6DTVKYC14LocationHelperC15locationManager_18didUpdateLocationsySo010CLLocationE0C_SaySo0I0CGtF",
+            "moduleName": "DTVKYC",
+            "objc_name": "locationManager:didUpdateLocations:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "locationManager",
+            "printedName": "locationManager(_:didFailWithError:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CLLocationManager",
+                "printedName": "CoreLocation.CLLocationManager",
+                "usr": "c:objc(cs)CLLocationManager"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Error",
+                "printedName": "any Swift.Error",
+                "usr": "s:s5ErrorP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@DTVKYC@objc(cs)LocationHelper(im)locationManager:didFailWithError:",
+            "mangledName": "$s6DTVKYC14LocationHelperC15locationManager_16didFailWithErrorySo010CLLocationE0C_s0I0_ptF",
+            "moduleName": "DTVKYC",
+            "objc_name": "locationManager:didFailWithError:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@DTVKYC@objc(cs)LocationHelper",
+        "mangledName": "$s6DTVKYC14LocationHelperC",
+        "moduleName": "DTVKYC",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DTVKYC",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "DTVKYC"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 2178,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2264,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 2506,
+      "length": 9,
+      "value": "\"iPod5,1\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 2524,
+      "length": 14,
+      "value": "\"iPod Touch 5\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 2554,
+      "length": 9,
+      "value": "\"iPod7,1\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 2572,
+      "length": 14,
+      "value": "\"iPod Touch 6\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 2602,
+      "length": 9,
+      "value": "\"iPod9,1\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 2620,
+      "length": 14,
+      "value": "\"iPod Touch 7\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 2681,
+      "length": 11,
+      "value": "\"iPhone3,1\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 2694,
+      "length": 11,
+      "value": "\"iPhone3,2\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 2707,
+      "length": 11,
+      "value": "\"iPhone3,3\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 2727,
+      "length": 10,
+      "value": "\"iPhone 4\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 2753,
+      "length": 11,
+      "value": "\"iPhone4,1\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 2773,
+      "length": 11,
+      "value": "\"iPhone 4s\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 2800,
+      "length": 11,
+      "value": "\"iPhone5,1\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 2813,
+      "length": 11,
+      "value": "\"iPhone5,2\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 2833,
+      "length": 10,
+      "value": "\"iPhone 5\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 2859,
+      "length": 11,
+      "value": "\"iPhone5,3\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 2872,
+      "length": 11,
+      "value": "\"iPhone5,4\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 2892,
+      "length": 11,
+      "value": "\"iPhone 5c\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 2919,
+      "length": 11,
+      "value": "\"iPhone6,1\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 2932,
+      "length": 11,
+      "value": "\"iPhone6,2\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 2952,
+      "length": 11,
+      "value": "\"iPhone 5s\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 2979,
+      "length": 11,
+      "value": "\"iPhone7,2\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 2999,
+      "length": 10,
+      "value": "\"iPhone 6\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 3025,
+      "length": 11,
+      "value": "\"iPhone7,1\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 3045,
+      "length": 15,
+      "value": "\"iPhone 6 Plus\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 3076,
+      "length": 11,
+      "value": "\"iPhone8,1\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 3096,
+      "length": 11,
+      "value": "\"iPhone 6s\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 3123,
+      "length": 11,
+      "value": "\"iPhone8,2\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 3143,
+      "length": 16,
+      "value": "\"iPhone 6s Plus\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 3175,
+      "length": 11,
+      "value": "\"iPhone8,4\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 3195,
+      "length": 28,
+      "value": "\"iPhone SE (1st generation)\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 3239,
+      "length": 11,
+      "value": "\"iPhone9,1\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 3252,
+      "length": 11,
+      "value": "\"iPhone9,3\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 3272,
+      "length": 10,
+      "value": "\"iPhone 7\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 3298,
+      "length": 11,
+      "value": "\"iPhone9,2\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 3311,
+      "length": 11,
+      "value": "\"iPhone9,4\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 3331,
+      "length": 15,
+      "value": "\"iPhone 7 Plus\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 3362,
+      "length": 12,
+      "value": "\"iPhone10,1\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 3376,
+      "length": 12,
+      "value": "\"iPhone10,4\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 3397,
+      "length": 10,
+      "value": "\"iPhone 8\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 3423,
+      "length": 12,
+      "value": "\"iPhone10,2\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 3437,
+      "length": 12,
+      "value": "\"iPhone10,5\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 3458,
+      "length": 15,
+      "value": "\"iPhone 8 Plus\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 3489,
+      "length": 12,
+      "value": "\"iPhone10,3\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 3503,
+      "length": 12,
+      "value": "\"iPhone10,6\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 3524,
+      "length": 10,
+      "value": "\"iPhone X\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 3550,
+      "length": 12,
+      "value": "\"iPhone11,2\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 3571,
+      "length": 11,
+      "value": "\"iPhone XS\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 3598,
+      "length": 12,
+      "value": "\"iPhone11,4\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 3612,
+      "length": 12,
+      "value": "\"iPhone11,6\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 3633,
+      "length": 15,
+      "value": "\"iPhone XS Max\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 3664,
+      "length": 12,
+      "value": "\"iPhone11,8\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 3685,
+      "length": 11,
+      "value": "\"iPhone XR\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 3712,
+      "length": 12,
+      "value": "\"iPhone12,1\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 3733,
+      "length": 11,
+      "value": "\"iPhone 11\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 3760,
+      "length": 12,
+      "value": "\"iPhone12,3\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 3781,
+      "length": 15,
+      "value": "\"iPhone 11 Pro\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 3812,
+      "length": 12,
+      "value": "\"iPhone12,5\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 3833,
+      "length": 19,
+      "value": "\"iPhone 11 Pro Max\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 3868,
+      "length": 12,
+      "value": "\"iPhone12,8\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 3889,
+      "length": 28,
+      "value": "\"iPhone SE (2nd generation)\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 3933,
+      "length": 12,
+      "value": "\"iPhone13,1\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 3954,
+      "length": 16,
+      "value": "\"iPhone 12 mini\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 3986,
+      "length": 12,
+      "value": "\"iPhone13,2\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 4007,
+      "length": 11,
+      "value": "\"iPhone 12\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 4034,
+      "length": 12,
+      "value": "\"iPhone13,3\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 4055,
+      "length": 15,
+      "value": "\"iPhone 12 Pro\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 4086,
+      "length": 12,
+      "value": "\"iPhone13,4\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 4107,
+      "length": 19,
+      "value": "\"iPhone 12 Pro Max\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 4142,
+      "length": 12,
+      "value": "\"iPhone14,4\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 4163,
+      "length": 16,
+      "value": "\"iPhone 13 mini\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 4195,
+      "length": 12,
+      "value": "\"iPhone14,5\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 4216,
+      "length": 11,
+      "value": "\"iPhone 13\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 4243,
+      "length": 12,
+      "value": "\"iPhone14,2\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 4264,
+      "length": 15,
+      "value": "\"iPhone 13 Pro\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 4295,
+      "length": 12,
+      "value": "\"iPhone14,3\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 4316,
+      "length": 19,
+      "value": "\"iPhone 13 Pro Max\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 4351,
+      "length": 12,
+      "value": "\"iPhone14,6\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 4372,
+      "length": 28,
+      "value": "\"iPhone SE (3rd generation)\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 4416,
+      "length": 12,
+      "value": "\"iPhone14,7\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 4437,
+      "length": 11,
+      "value": "\"iPhone 14\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 4464,
+      "length": 12,
+      "value": "\"iPhone14,8\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 4485,
+      "length": 16,
+      "value": "\"iPhone 14 Plus\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 4517,
+      "length": 12,
+      "value": "\"iPhone15,2\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 4538,
+      "length": 15,
+      "value": "\"iPhone 14 Pro\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 4569,
+      "length": 12,
+      "value": "\"iPhone15,3\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 4590,
+      "length": 19,
+      "value": "\"iPhone 14 Pro Max\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 4625,
+      "length": 12,
+      "value": "\"iPhone16,1\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 4646,
+      "length": 11,
+      "value": "\"iPhone 15\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 4673,
+      "length": 12,
+      "value": "\"iPhone16,2\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 4694,
+      "length": 15,
+      "value": "\"iPhone 15 Pro\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 4725,
+      "length": 12,
+      "value": "\"iPhone16,4\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 4746,
+      "length": 16,
+      "value": "\"iPhone 15 Plus\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 4778,
+      "length": 12,
+      "value": "\"iPhone16,5\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 4799,
+      "length": 19,
+      "value": "\"iPhone 15 Pro Max\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 4853,
+      "length": 9,
+      "value": "\"iPad2,1\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 4864,
+      "length": 9,
+      "value": "\"iPad2,2\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 4875,
+      "length": 9,
+      "value": "\"iPad2,3\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 4886,
+      "length": 9,
+      "value": "\"iPad2,4\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 4904,
+      "length": 8,
+      "value": "\"iPad 2\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 4928,
+      "length": 9,
+      "value": "\"iPad3,1\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 4939,
+      "length": 9,
+      "value": "\"iPad3,2\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 4950,
+      "length": 9,
+      "value": "\"iPad3,3\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 4968,
+      "length": 8,
+      "value": "\"iPad 3\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 4992,
+      "length": 9,
+      "value": "\"iPad3,4\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 5003,
+      "length": 9,
+      "value": "\"iPad3,5\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 5014,
+      "length": 9,
+      "value": "\"iPad3,6\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 5032,
+      "length": 8,
+      "value": "\"iPad 4\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 5056,
+      "length": 10,
+      "value": "\"iPad6,11\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 5068,
+      "length": 10,
+      "value": "\"iPad6,12\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 5087,
+      "length": 23,
+      "value": "\"iPad (5th generation)\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 5126,
+      "length": 9,
+      "value": "\"iPad7,5\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 5137,
+      "length": 9,
+      "value": "\"iPad7,6\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 5155,
+      "length": 23,
+      "value": "\"iPad (6th generation)\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 5194,
+      "length": 10,
+      "value": "\"iPad7,11\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 5206,
+      "length": 10,
+      "value": "\"iPad7,12\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 5225,
+      "length": 23,
+      "value": "\"iPad (7th generation)\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 5264,
+      "length": 10,
+      "value": "\"iPad11,6\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 5276,
+      "length": 10,
+      "value": "\"iPad11,7\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 5295,
+      "length": 23,
+      "value": "\"iPad (8th generation)\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 5334,
+      "length": 10,
+      "value": "\"iPad12,1\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 5346,
+      "length": 10,
+      "value": "\"iPad12,2\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 5365,
+      "length": 23,
+      "value": "\"iPad (9th generation)\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 5404,
+      "length": 11,
+      "value": "\"iPad13,18\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 5417,
+      "length": 11,
+      "value": "\"iPad13,19\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 5437,
+      "length": 24,
+      "value": "\"iPad (10th generation)\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 5510,
+      "length": 9,
+      "value": "\"iPad4,1\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 5521,
+      "length": 9,
+      "value": "\"iPad4,2\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 5532,
+      "length": 9,
+      "value": "\"iPad4,3\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 5550,
+      "length": 10,
+      "value": "\"iPad Air\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 5576,
+      "length": 9,
+      "value": "\"iPad5,3\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 5587,
+      "length": 9,
+      "value": "\"iPad5,4\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 5605,
+      "length": 12,
+      "value": "\"iPad Air 2\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 5633,
+      "length": 10,
+      "value": "\"iPad11,3\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 5645,
+      "length": 10,
+      "value": "\"iPad11,4\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 5664,
+      "length": 27,
+      "value": "\"iPad Air (3rd generation)\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 5707,
+      "length": 10,
+      "value": "\"iPad13,1\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 5719,
+      "length": 10,
+      "value": "\"iPad13,2\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 5738,
+      "length": 27,
+      "value": "\"iPad Air (4th generation)\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 5781,
+      "length": 11,
+      "value": "\"iPad13,16\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 5794,
+      "length": 11,
+      "value": "\"iPad13,17\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 5814,
+      "length": 27,
+      "value": "\"iPad Air (5th generation)\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 5891,
+      "length": 9,
+      "value": "\"iPad2,5\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 5902,
+      "length": 9,
+      "value": "\"iPad2,6\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 5913,
+      "length": 9,
+      "value": "\"iPad2,7\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 5931,
+      "length": 11,
+      "value": "\"iPad Mini\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 5958,
+      "length": 9,
+      "value": "\"iPad4,4\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 5969,
+      "length": 9,
+      "value": "\"iPad4,5\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 5980,
+      "length": 9,
+      "value": "\"iPad4,6\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 5998,
+      "length": 13,
+      "value": "\"iPad Mini 2\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 6027,
+      "length": 9,
+      "value": "\"iPad4,7\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 6038,
+      "length": 9,
+      "value": "\"iPad4,8\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 6049,
+      "length": 9,
+      "value": "\"iPad4,9\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 6067,
+      "length": 13,
+      "value": "\"iPad Mini 3\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 6096,
+      "length": 9,
+      "value": "\"iPad5,1\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 6107,
+      "length": 9,
+      "value": "\"iPad5,2\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 6125,
+      "length": 13,
+      "value": "\"iPad Mini 4\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 6154,
+      "length": 10,
+      "value": "\"iPad11,1\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 6166,
+      "length": 10,
+      "value": "\"iPad11,2\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 6185,
+      "length": 28,
+      "value": "\"iPad Mini (5th generation)\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 6229,
+      "length": 10,
+      "value": "\"iPad14,1\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 6241,
+      "length": 10,
+      "value": "\"iPad14,2\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 6260,
+      "length": 28,
+      "value": "\"iPad Mini (6th generation)\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 6337,
+      "length": 9,
+      "value": "\"iPad6,3\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 6348,
+      "length": 9,
+      "value": "\"iPad6,4\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 6366,
+      "length": 21,
+      "value": "\"iPad Pro (9.7-inch)\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 6403,
+      "length": 9,
+      "value": "\"iPad6,7\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 6414,
+      "length": 9,
+      "value": "\"iPad6,8\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 6432,
+      "length": 39,
+      "value": "\"iPad Pro (12.9-inch) (1st generation)\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 6487,
+      "length": 9,
+      "value": "\"iPad7,1\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 6498,
+      "length": 9,
+      "value": "\"iPad7,2\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 6516,
+      "length": 39,
+      "value": "\"iPad Pro (12.9-inch) (2nd generation)\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 6571,
+      "length": 9,
+      "value": "\"iPad7,3\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 6582,
+      "length": 9,
+      "value": "\"iPad7,4\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 6600,
+      "length": 22,
+      "value": "\"iPad Pro (10.5-inch)\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 6638,
+      "length": 9,
+      "value": "\"iPad8,1\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 6649,
+      "length": 9,
+      "value": "\"iPad8,2\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 6660,
+      "length": 9,
+      "value": "\"iPad8,3\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 6671,
+      "length": 9,
+      "value": "\"iPad8,4\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 6689,
+      "length": 37,
+      "value": "\"iPad Pro (11-inch) (1st generation)\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 6742,
+      "length": 9,
+      "value": "\"iPad8,5\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 6753,
+      "length": 9,
+      "value": "\"iPad8,6\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 6764,
+      "length": 9,
+      "value": "\"iPad8,7\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 6775,
+      "length": 9,
+      "value": "\"iPad8,8\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 6793,
+      "length": 39,
+      "value": "\"iPad Pro (12.9-inch) (3rd generation)\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 6848,
+      "length": 9,
+      "value": "\"iPad8,9\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 6859,
+      "length": 10,
+      "value": "\"iPad8,10\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 6878,
+      "length": 37,
+      "value": "\"iPad Pro (11-inch) (2nd generation)\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 6931,
+      "length": 10,
+      "value": "\"iPad8,11\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 6943,
+      "length": 10,
+      "value": "\"iPad8,12\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 6962,
+      "length": 39,
+      "value": "\"iPad Pro (12.9-inch) (4th generation)\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 7017,
+      "length": 10,
+      "value": "\"iPad13,4\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 7029,
+      "length": 10,
+      "value": "\"iPad13,5\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 7041,
+      "length": 10,
+      "value": "\"iPad13,6\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 7053,
+      "length": 10,
+      "value": "\"iPad13,7\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 7072,
+      "length": 37,
+      "value": "\"iPad Pro (11-inch) (3rd generation)\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 7125,
+      "length": 10,
+      "value": "\"iPad13,8\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 7137,
+      "length": 10,
+      "value": "\"iPad13,9\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 7149,
+      "length": 11,
+      "value": "\"iPad13,10\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 7162,
+      "length": 11,
+      "value": "\"iPad13,11\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 7182,
+      "length": 39,
+      "value": "\"iPad Pro (12.9-inch) (5th generation)\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 7237,
+      "length": 10,
+      "value": "\"iPad14,3\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 7249,
+      "length": 10,
+      "value": "\"iPad14,4\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 7268,
+      "length": 37,
+      "value": "\"iPad Pro (11-inch) (4th generation)\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 7321,
+      "length": 10,
+      "value": "\"iPad14,5\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 7333,
+      "length": 10,
+      "value": "\"iPad14,6\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 7352,
+      "length": 39,
+      "value": "\"iPad Pro (12.9-inch) (6th generation)\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 7430,
+      "length": 12,
+      "value": "\"AppleTV5,3\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 7451,
+      "length": 13,
+      "value": "\"Apple TV HD\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 7480,
+      "length": 12,
+      "value": "\"AppleTV6,2\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 7501,
+      "length": 13,
+      "value": "\"Apple TV 4K\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 7530,
+      "length": 13,
+      "value": "\"AppleTV11,1\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 7552,
+      "length": 30,
+      "value": "\"Apple TV 4K (2nd generation)\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 7598,
+      "length": 13,
+      "value": "\"AppleTV14,1\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 7620,
+      "length": 30,
+      "value": "\"Apple TV 4K (3rd generation)\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 7698,
+      "length": 19,
+      "value": "\"AudioAccessory1,1\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 7726,
+      "length": 9,
+      "value": "\"HomePod\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 7751,
+      "length": 19,
+      "value": "\"AudioAccessory5,1\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 7779,
+      "length": 14,
+      "value": "\"HomePod mini\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 7843,
+      "length": 6,
+      "value": "\"i386\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 7851,
+      "length": 8,
+      "value": "\"x86_64\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 7861,
+      "length": 7,
+      "value": "\"arm64\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 7877,
+      "length": 104,
+      "value": "\"Simulator \""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 7940,
+      "length": 28,
+      "value": "\"SIMULATOR_MODEL_IDENTIFIER\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 7973,
+      "length": 5,
+      "value": "\"iOS\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CommonUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 7980,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Config\/DTVKYCConfig.swift",
+      "kind": "BooleanLiteral",
+      "offset": 311,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Config\/DTVKYCConfig.swift",
+      "kind": "BooleanLiteral",
+      "offset": 335,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Config\/DTVKYCConfig.swift",
+      "kind": "BooleanLiteral",
+      "offset": 361,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Config\/DTVKYCConfig.swift",
+      "kind": "BooleanLiteral",
+      "offset": 394,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Controller\/DTVKYCVC.swift",
+      "kind": "StringLiteral",
+      "offset": 531,
+      "length": 5,
+      "value": "\"0.0\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Controller\/DTVKYCVC.swift",
+      "kind": "StringLiteral",
+      "offset": 575,
+      "length": 5,
+      "value": "\"0.0\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Controller\/DTVKYCVC.swift",
+      "kind": "FloatLiteral",
+      "offset": 10612,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Exception\/DTVkycException.swift",
+      "kind": "StringLiteral",
+      "offset": 132,
+      "length": 15,
+      "value": "\"DTVKYC.DTVkycException\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Exception\/DTVkycException.swift",
+      "kind": "IntegerLiteral",
+      "offset": 632,
+      "length": 4,
+      "value": "1001"
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Exception\/DTVkycException.swift",
+      "kind": "IntegerLiteral",
+      "offset": 647,
+      "length": 15,
+      "value": "1002"
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Exception\/DTVkycException.swift",
+      "kind": "IntegerLiteral",
+      "offset": 673,
+      "length": 14,
+      "value": "1003"
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Exception\/DTVkycException.swift",
+      "kind": "IntegerLiteral",
+      "offset": 698,
+      "length": 14,
+      "value": "1004"
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Exception\/DTVkycException.swift",
+      "kind": "IntegerLiteral",
+      "offset": 723,
+      "length": 22,
+      "value": "1005"
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Exception\/DTVkycException.swift",
+      "kind": "IntegerLiteral",
+      "offset": 756,
+      "length": 12,
+      "value": "1006"
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Exception\/DTVkycException.swift",
+      "kind": "IntegerLiteral",
+      "offset": 779,
+      "length": 22,
+      "value": "1007"
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Exception\/DTVkycException.swift",
+      "kind": "IntegerLiteral",
+      "offset": 632,
+      "length": 4,
+      "value": "1001"
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Exception\/DTVkycException.swift",
+      "kind": "IntegerLiteral",
+      "offset": 647,
+      "length": 15,
+      "value": "1002"
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Exception\/DTVkycException.swift",
+      "kind": "IntegerLiteral",
+      "offset": 673,
+      "length": 14,
+      "value": "1003"
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Exception\/DTVkycException.swift",
+      "kind": "IntegerLiteral",
+      "offset": 698,
+      "length": 14,
+      "value": "1004"
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Exception\/DTVkycException.swift",
+      "kind": "IntegerLiteral",
+      "offset": 723,
+      "length": 22,
+      "value": "1005"
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Exception\/DTVkycException.swift",
+      "kind": "IntegerLiteral",
+      "offset": 756,
+      "length": 12,
+      "value": "1006"
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Exception\/DTVkycException.swift",
+      "kind": "IntegerLiteral",
+      "offset": 779,
+      "length": 22,
+      "value": "1007"
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Exception\/DTVkycException.swift",
+      "kind": "IntegerLiteral",
+      "offset": 632,
+      "length": 4,
+      "value": "1001"
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Exception\/DTVkycException.swift",
+      "kind": "IntegerLiteral",
+      "offset": 647,
+      "length": 15,
+      "value": "1002"
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Exception\/DTVkycException.swift",
+      "kind": "IntegerLiteral",
+      "offset": 673,
+      "length": 14,
+      "value": "1003"
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Exception\/DTVkycException.swift",
+      "kind": "IntegerLiteral",
+      "offset": 698,
+      "length": 14,
+      "value": "1004"
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Exception\/DTVkycException.swift",
+      "kind": "IntegerLiteral",
+      "offset": 723,
+      "length": 22,
+      "value": "1005"
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Exception\/DTVkycException.swift",
+      "kind": "IntegerLiteral",
+      "offset": 756,
+      "length": 12,
+      "value": "1006"
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Exception\/DTVkycException.swift",
+      "kind": "IntegerLiteral",
+      "offset": 779,
+      "length": 22,
+      "value": "1007"
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Exception\/DTVkycException.swift",
+      "kind": "StringLiteral",
+      "offset": 866,
+      "length": 15,
+      "value": "\"Invalid Input\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Exception\/DTVkycException.swift",
+      "kind": "StringLiteral",
+      "offset": 909,
+      "length": 35,
+      "value": "\"initialize method not called yet.\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Exception\/DTVkycException.swift",
+      "kind": "StringLiteral",
+      "offset": 971,
+      "length": 16,
+      "value": "\"User Cancelled\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Exception\/DTVkycException.swift",
+      "kind": "StringLiteral",
+      "offset": 1014,
+      "length": 37,
+      "value": "\"Internal Error, Try after some time\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Exception\/DTVkycException.swift",
+      "kind": "StringLiteral",
+      "offset": 1086,
+      "length": 32,
+      "value": "\"Permission not granted by user\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Exception\/DTVkycException.swift",
+      "kind": "StringLiteral",
+      "offset": 1143,
+      "length": 35,
+      "value": "\"Server Error, Try after some time\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Exception\/DTVkycException.swift",
+      "kind": "StringLiteral",
+      "offset": 1213,
+      "length": 24,
+      "value": "\"Internet not connected\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Exception\/DTVkycException.swift",
+      "kind": "StringLiteral",
+      "offset": 866,
+      "length": 15,
+      "value": "\"Invalid Input\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Exception\/DTVkycException.swift",
+      "kind": "StringLiteral",
+      "offset": 909,
+      "length": 35,
+      "value": "\"initialize method not called yet.\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Exception\/DTVkycException.swift",
+      "kind": "StringLiteral",
+      "offset": 971,
+      "length": 16,
+      "value": "\"User Cancelled\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Exception\/DTVkycException.swift",
+      "kind": "StringLiteral",
+      "offset": 1014,
+      "length": 37,
+      "value": "\"Internal Error, Try after some time\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Exception\/DTVkycException.swift",
+      "kind": "StringLiteral",
+      "offset": 1086,
+      "length": 32,
+      "value": "\"Permission not granted by user\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Exception\/DTVkycException.swift",
+      "kind": "StringLiteral",
+      "offset": 1143,
+      "length": 35,
+      "value": "\"Server Error, Try after some time\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Exception\/DTVkycException.swift",
+      "kind": "StringLiteral",
+      "offset": 1213,
+      "length": 24,
+      "value": "\"Internet not connected\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Constant\/Constant.swift",
+      "kind": "FloatLiteral",
+      "offset": 234,
+      "length": 4,
+      "value": "63.0"
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Constant\/Constant.swift",
+      "kind": "FloatLiteral",
+      "offset": 239,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Constant\/Constant.swift",
+      "kind": "FloatLiteral",
+      "offset": 253,
+      "length": 5,
+      "value": "153.0"
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Constant\/Constant.swift",
+      "kind": "FloatLiteral",
+      "offset": 259,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Constant\/Constant.swift",
+      "kind": "FloatLiteral",
+      "offset": 272,
+      "length": 5,
+      "value": "191.0"
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Constant\/Constant.swift",
+      "kind": "FloatLiteral",
+      "offset": 278,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Constant\/Constant.swift",
+      "kind": "FloatLiteral",
+      "offset": 292,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Constant\/Constant.swift",
+      "kind": "StringLiteral",
+      "offset": 334,
+      "length": 20,
+      "value": "\"com.digitap.dtvkyc\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Constant\/Constant.swift",
+      "kind": "StringLiteral",
+      "offset": 387,
+      "length": 8,
+      "value": "\"DTVKYC\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Constant\/Constant.swift",
+      "kind": "StringLiteral",
+      "offset": 440,
+      "length": 10,
+      "value": "\"DTVKYCVC\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Constant\/Constant.swift",
+      "kind": "StringLiteral",
+      "offset": 501,
+      "length": 36,
+      "value": "\"https:\/\/apidemo.digitap.work\/demo\/\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Constant\/Constant.swift",
+      "kind": "StringLiteral",
+      "offset": 567,
+      "length": 30,
+      "value": "\"https:\/\/api.digitap.ai\/demo\/\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Constant\/Constant.swift",
+      "kind": "StringLiteral",
+      "offset": 629,
+      "length": 64,
+      "value": "\"https:\/\/qss5szefd5.execute-api.ap-south-1.amazonaws.com\/stage\/\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Constant\/Constant.swift",
+      "kind": "StringLiteral",
+      "offset": 731,
+      "length": 35,
+      "value": "\"https:\/\/webvkycfesb.digitap.work\/\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Constant\/Constant.swift",
+      "kind": "StringLiteral",
+      "offset": 799,
+      "length": 28,
+      "value": "\"https:\/\/vkycfe.digitap.ai\/\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Constant\/Constant.swift",
+      "kind": "StringLiteral",
+      "offset": 862,
+      "length": 35,
+      "value": "\"https:\/\/vkycfestage.digitap.work\/\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Constant\/Constant.swift",
+      "kind": "StringLiteral",
+      "offset": 934,
+      "length": 25,
+      "value": "\"okycvkyc?transactionId=\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Constant\/Constant.swift",
+      "kind": "StringLiteral",
+      "offset": 1013,
+      "length": 7,
+      "value": "\"1.0.0\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Constant\/Constant.swift",
+      "kind": "StringLiteral",
+      "offset": 1078,
+      "length": 28,
+      "value": "\"v1\/vkyc\/okyc\/user\/activate\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Constant\/Constant.swift",
+      "kind": "StringLiteral",
+      "offset": 1153,
+      "length": 120,
+      "value": "\"Place your face with in the circle and close to the camera. Ensure the camera is held straight and in upright position\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Constant\/Constant.swift",
+      "kind": "StringLiteral",
+      "offset": 1311,
+      "length": 13,
+      "value": "\"Capture now\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Constant\/Constant.swift",
+      "kind": "StringLiteral",
+      "offset": 1367,
+      "length": 25,
+      "value": "\"Multiple faces detected\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Constant\/Constant.swift",
+      "kind": "StringLiteral",
+      "offset": 1436,
+      "length": 28,
+      "value": "\"Move camera away from face\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Constant\/Constant.swift",
+      "kind": "StringLiteral",
+      "offset": 1510,
+      "length": 28,
+      "value": "\"Move camera closer to face\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Constant\/Constant.swift",
+      "kind": "StringLiteral",
+      "offset": 1574,
+      "length": 14,
+      "value": "\"Face Capture\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Constant\/Constant.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1683,
+      "length": 3,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Constant\/Constant.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1696,
+      "length": 5,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Constant\/Constant.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1711,
+      "length": 3,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/PermissionHandler.swift",
+      "kind": "BooleanLiteral",
+      "offset": 328,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CalendarUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 317,
+      "length": 16,
+      "value": "\"empty_event_id\""
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/Utils\/CalendarUtil.swift",
+      "kind": "IntegerLiteral",
+      "offset": 393,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/saikiran\/Documents\/Products\/Vkyc\/IOS\/VKYC-IOS-SDK\/DTVKYC\/DTVKYC\/JS\/WebViewJSInterface.swift",
+      "kind": "StringLiteral",
+      "offset": 127,
+      "length": 18,
+      "value": "\"DTVKYC.WebViewJsInterface\""
+    }
+  ]
+}

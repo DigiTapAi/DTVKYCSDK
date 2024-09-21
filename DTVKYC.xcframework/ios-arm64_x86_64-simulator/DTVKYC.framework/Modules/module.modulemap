@@ -1,0 +1,6 @@
+framework module DTVKYC {
+  umbrella header "DTVKYC.h"
+  export *
+
+  module * { export * }
+}
