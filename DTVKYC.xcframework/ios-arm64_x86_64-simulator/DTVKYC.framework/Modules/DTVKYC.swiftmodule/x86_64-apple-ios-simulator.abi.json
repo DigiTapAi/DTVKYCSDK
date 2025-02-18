@@ -2641,6 +2641,13 @@
         "moduleName": "DTVKYC"
       },
       {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "DTVKYC"
+      },
+      {
         "kind": "TypeDecl",
         "name": "LocationHelper",
         "printedName": "LocationHelper",
@@ -3126,6 +3133,7 @@
         "moduleName": "DTVKYC",
         "declAttributes": [
           "AccessControl",
+          "RawDocComment",
           "ObjC"
         ],
         "superclassUsr": "c:objc(cs)NSObject",
