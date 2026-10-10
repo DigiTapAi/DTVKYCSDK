@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "DTVKYCSDK"
-  spec.version      = "1.0.3"
+  spec.version      = "0.0.1"
   spec.summary      = "DTVKYCSDK is for doing vkyc."
 
   # This description is used to generate tags and improve search results.

@@ -4,33 +4,53 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Assets.car</key>
+		<data>
+		9+zWLRcry6lD9jGriX55fgCjyas=
+		</data>
+		<key>ErrorDialog.storyboardc/ErrorDialogVC.nib</key>
+		<data>
+		Hq7QPbX1B0NC5Yn9k+GMC8HGd5A=
+		</data>
+		<key>ErrorDialog.storyboardc/Info.plist</key>
+		<data>
+		LTGKoyvp8NQLlSfzPyQbAcY1MuM=
+		</data>
+		<key>ErrorDialog.storyboardc/Y6W-OH-hqX-view-5EZ-qb-Rvc.nib</key>
+		<data>
+		BOGOc1C86IaW8ZGEI/09yG3CEpQ=
+		</data>
 		<key>Headers/DTVKYC.h</key>
 		<data>
 		LFkm4YDR/hk4h3MTclVvcFtIfvI=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		VYDsvvuXFTGrTsV8Tgw5xuFkfYM=
+		rt4Zhk7/dylxsC5oLvpLG1bFTrA=
+		</data>
+		<key>Localizable.strings</key>
+		<data>
+		Gg+fWlJ+HoGMKTd4O0RX11Rc5Cc=
 		</data>
 		<key>Modules/DTVKYC.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		qo0cdzQdjtLO1mBByyvXcBuDcfM=
+		qWkJuSqBGYk5LiDR4Z87WzhMNvo=
 		</data>
 		<key>Modules/DTVKYC.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		+YoME5wtW6+tcEqGF8kmtfrzeQQ=
+		pxCcKb9GIDvwWP3LFMRh5b4vFNI=
 		</data>
 		<key>Modules/DTVKYC.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		4ZDHt5McB7WAy/3yfy96U/Rrj0o=
+		EWkjaDp0By2mj8jqaTlSG6V0Qx8=
 		</data>
 		<key>Modules/DTVKYC.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		+YoME5wtW6+tcEqGF8kmtfrzeQQ=
+		pxCcKb9GIDvwWP3LFMRh5b4vFNI=
 		</data>
 		<key>Modules/DTVKYC.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		3sM0DJ7EDPl0OhQ53IWTdzV/tBo=
+		+By4gsvCbo5jjzlGDsLlo5PONQs=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -39,6 +59,34 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Assets.car</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			rjbHmfy/ijSQs11Bvbz0gdpIOO1rb0HjQutn9kDaqdo=
+			</data>
+		</dict>
+		<key>ErrorDialog.storyboardc/ErrorDialogVC.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			gAmwduWrOD9aWaJjeEM8GkoXhhBlbCSIE+my3wCNM/Q=
+			</data>
+		</dict>
+		<key>ErrorDialog.storyboardc/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			1ByHyS2UazkgIyvIS22YA7ntz+sS0LHG3Gq2YQO7LbY=
+			</data>
+		</dict>
+		<key>ErrorDialog.storyboardc/Y6W-OH-hqX-view-5EZ-qb-Rvc.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			T8EYVjUeJp4iwiUubhLLhcA3Bq3U2KnY1mek+ukHwUs=
+			</data>
+		</dict>
 		<key>Headers/DTVKYC.h</key>
 		<dict>
 			<key>hash2</key>
@@ -46,39 +94,46 @@
 			W7sjuFp9bN+j0xWXpu6smIyeRfwNuC/Y12FlWXx33hQ=
 			</data>
 		</dict>
+		<key>Localizable.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			N2QOZwF0eX3VOySIYcTMxe6MyTQJL3lgegkRRzIbf1E=
+			</data>
+		</dict>
 		<key>Modules/DTVKYC.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			s7EmS3nYqKdS3LCqkVHZ7PdK2EUYGjy1Dqp1Z1HcLuQ=
+			B75kJPEFzZHY70LEf1dHUKsN8DRExNq2XrYNKS9aX4Y=
 			</data>
 		</dict>
 		<key>Modules/DTVKYC.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1DXyydBzFOlFYnGG72545FhprkfSr8TV7dEb02qnPQM=
+			qoD2/AaUU6ylJ6xWOtpM6MlsRwzcw/FwbNfx4ZYu6Bk=
 			</data>
 		</dict>
 		<key>Modules/DTVKYC.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vl93HZFpkQTXTslJmzvBx1VaRFKdin85YnC1uKgj+yo=
+			SfgjGaUwV22VnVIb4jSPikBNif8/0wCxbbqIiYUazmY=
 			</data>
 		</dict>
 		<key>Modules/DTVKYC.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1DXyydBzFOlFYnGG72545FhprkfSr8TV7dEb02qnPQM=
+			qoD2/AaUU6ylJ6xWOtpM6MlsRwzcw/FwbNfx4ZYu6Bk=
 			</data>
 		</dict>
 		<key>Modules/DTVKYC.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			pJq1zJA0UEQKOunYPWKIV94ttV2+Yv8SS3ijeUfZZwc=
+			SnIMK0qFy2RSlDE1YUUBFhnzcnJkQnIiJw4XkRU5Kug=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

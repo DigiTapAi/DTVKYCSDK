@@ -1,68 +1,97 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.1.2 effective-5.10 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
-// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name DTVKYC
-// swift-module-flags-ignorable:  -interface-compiler-version 6.1.2
+// swift-compiler-version: Apple Swift version 6.4 effective-5.10 (swiftlang-6.4.0.34.1 clang-2100.3.34.1)
+// swift-module-flags: -target arm64-apple-ios15.0 -enable-objc-interop -enable-library-evolution -language-mode 5 -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name DTVKYC
+// swift-module-flags-ignorable:  -formal-cxx-interoperability-mode=off -interface-compiler-version 6.4
 import AVFoundation
 import CoreLocation
 @_exported import DTVKYC
+import DeveloperToolsSupport
 import EventKit
 import Foundation
+import Network
 import Swift
+import SwiftUI
 import SystemConfiguration
 import UIKit
 import WebKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-@_inheritsConvenienceInitializers @objc public class DTVKYCConfig : ObjectiveC.NSObject {
+@_inheritsConvenienceInitializers @objc public class DTVKYCConfig : ObjectiveC::NSObject {
   @objc override dynamic public init()
-  @objc public func setFirstName(_ title: Swift.String)
-  @objc public func setLastName(_ lastName: Swift.String)
-  @objc public func setMobile(_ mobile: Swift.String)
-  @objc public func setUniqueId(_ uniqueId: Swift.String)
-  @objc public func setEmail(_ email: Swift.String)
-  @objc public func setPreferredAgentEmail(_ email: Swift.String)
-  @objc public func setIsKyc(_ skip: Swift.Bool)
-  @objc public func setSendSms(_ sendsms: Swift.Bool)
-  @objc public func setSendEmail(_ sendemail: Swift.Bool)
-  @objc public func setRandomAssignment(_ assignment: Swift.Bool)
-  @objc public func setMandatoryTags(_ tags: [Swift.Int])
-  @objc public func setNonMandatoryTags(_ tags: [Swift.Int])
+  @objc public func setFirstName(_ title: Swift::String)
+  @objc public func setLastName(_ lastName: Swift::String)
+  @objc public func setMobile(_ mobile: Swift::String)
+  @objc public func setUniqueId(_ uniqueId: Swift::String)
+  @objc public func setEmail(_ email: Swift::String)
+  @objc public func setPreferredAgentEmail(_ email: Swift::String)
+  @objc public func setIsKyc(_ skip: Swift::Bool)
+  @objc public func setSendSms(_ sendsms: Swift::Bool)
+  @objc public func setSendEmail(_ sendemail: Swift::Bool)
+  @objc public func setRandomAssignment(_ assignment: Swift::Bool)
+  @objc public func setMandatoryTags(_ tags: [Swift::Int])
+  @objc public func setNonMandatoryTags(_ tags: [Swift::Int])
+  public func setVerificationQuestions(_ value: [DTVKYC::VerificationQuestions])
+  @objc public func setNameAsPerAadhaar(_ value: Swift::String?)
+  @objc public func setGuardianNameAsPerAadhaar(_ value: Swift::String?)
+  @objc public func setAddressAsPerAadhaar(_ value: Swift::String?)
+  public func setAadhaarLastFourDigits(_ value: Swift::Int?)
+  @objc(setAadhaarLastFourDigits:) public func setAadhaarLastFourDigitsObjc(_ value: Foundation::NSNumber?)
+  @objc public func setDateOfAadhaarFetch(_ value: Swift::String?)
+  @objc public func setImageOfUserBase64(_ value: Swift::String?)
+  @objc public func setPanNumber(_ value: Swift::String?)
+  @objc public func setNameAsPerPan(_ value: Swift::String?)
+  @objc public func setDobAsPerPan(_ value: Swift::String?)
+  @objc public func setFatherNameAsPerPan(_ value: Swift::String?)
   @objc deinit
 }
-@_inheritsConvenienceInitializers @objc @_Concurrency.MainActor @preconcurrency public class DTVKYCVC : UIKit.UIViewController, WebKit.WKNavigationDelegate {
-  @objc @_Concurrency.MainActor @preconcurrency public static func launch(_ callingVC: UIKit.UIViewController, dtVkycConfig: DTVKYC.DTVKYCConfig, completionHandler: @escaping (DTVKYC.DTVkycException?, [Swift.String : Any]?) -> Swift.Void, eventHandler: (([Swift.String : Any]?) -> Swift.Void)? = nil)
-  @objc @_Concurrency.MainActor @preconcurrency public static func launchWithToken(_ callingVC: UIKit.UIViewController, urlToken: Swift.String, completionHandler: @escaping (DTVKYC.DTVkycException?, [Swift.String : Any]?) -> Swift.Void, eventHandler: (([Swift.String : Any]?) -> Swift.Void)? = nil)
-  @_Concurrency.MainActor @preconcurrency @objc override dynamic public var supportedInterfaceOrientations: UIKit.UIInterfaceOrientationMask {
+public struct VerificationQuestions : Swift::Codable {
+  public var question: Swift::String
+  public var answer: Swift::String
+  public init(question: Swift::String, answer: Swift::String)
+  public func encode(to encoder: any Swift::Encoder) throws
+  public init(from decoder: any Swift::Decoder) throws
+}
+@_inheritsConvenienceInitializers @objc @_Concurrency::MainActor @preconcurrency public class DTVKYCVC : UIKit::UIViewController, WebKit::WKNavigationDelegate, DTVKYC::ErrorDialogListener {
+  @objc @_Concurrency::MainActor @preconcurrency public static func launch(_ callingVC: UIKit::UIViewController, dtVkycConfig: DTVKYC::DTVKYCConfig, completionHandler: @escaping (DTVKYC::DTVkycException?, [Swift::String : Any]?) -> Swift::Void, eventHandler: (([Swift::String : Any]?) -> Swift::Void)? = nil)
+  @objc @_Concurrency::MainActor @preconcurrency public static func launchWithToken(_ callingVC: UIKit::UIViewController, urlToken: Swift::String, completionHandler: @escaping (DTVKYC::DTVkycException?, [Swift::String : Any]?) -> Swift::Void, eventHandler: (([Swift::String : Any]?) -> Swift::Void)? = nil)
+  @objc @_Concurrency::MainActor @preconcurrency public static func isValidUrl(_ webUrl: Swift::String) -> Swift::Bool
+  @objc @_Concurrency::MainActor @preconcurrency public static func launch(_ callingVC: UIKit::UIViewController, webUrl: Swift::String, completionHandler: @escaping (DTVKYC::DTVkycException?, [Swift::String : Any]?) -> Swift::Void, eventHandler: (([Swift::String : Any]?) -> Swift::Void)? = nil)
+  @objc @_Concurrency::MainActor @preconcurrency public static func launchWithWebUrl(_ callingVC: UIKit::UIViewController, webUrl: Swift::String, completionHandler: @escaping (DTVKYC::DTVkycException?, [Swift::String : Any]?) -> Swift::Void, eventHandler: (([Swift::String : Any]?) -> Swift::Void)? = nil)
+  @_Concurrency::MainActor @preconcurrency @objc override dynamic public var supportedInterfaceOrientations: UIKit::UIInterfaceOrientationMask {
     @objc get
   }
-  @_Concurrency.MainActor @preconcurrency @objc override dynamic public var shouldAutorotate: Swift.Bool {
+  @_Concurrency::MainActor @preconcurrency @objc override dynamic public var shouldAutorotate: Swift::Bool {
     @objc get
   }
-  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func viewDidLoad()
-  @_Concurrency.MainActor @preconcurrency @objc public func webView(_ webView: WebKit.WKWebView, didStartProvisionalNavigation navigation: WebKit.WKNavigation!)
-  @_Concurrency.MainActor @preconcurrency @objc public func webView(_ webView: WebKit.WKWebView, didFinish navigation: WebKit.WKNavigation!)
-  @_Concurrency.MainActor @preconcurrency @objc public func webView(_ webView: WebKit.WKWebView, didFail navigation: WebKit.WKNavigation!, withError error: any Swift.Error)
-  @_Concurrency.MainActor @preconcurrency @objc public func webView(_ webView: WebKit.WKWebView, didFailProvisionalNavigation navigation: WebKit.WKNavigation!, withError error: any Swift.Error)
-  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewWillDisappear(_ animated: Swift.Bool)
+  @_Concurrency::MainActor @preconcurrency @objc override dynamic open func viewDidLoad()
+  @_Concurrency::MainActor @preconcurrency public func retryTapped()
+  @_Concurrency::MainActor @preconcurrency public func backPressed()
+  @_Concurrency::MainActor @preconcurrency public func cancelTapped()
+  @_Concurrency::MainActor @preconcurrency public func permissionLost()
+  @_Concurrency::MainActor @preconcurrency @objc public func webView(_ webView: WebKit::WKWebView, didStartProvisionalNavigation navigation: WebKit::WKNavigation!)
+  @_Concurrency::MainActor @preconcurrency @objc public func webView(_ webView: WebKit::WKWebView, didFinish navigation: WebKit::WKNavigation!)
+  @_Concurrency::MainActor @preconcurrency @objc public func webView(_ webView: WebKit::WKWebView, didFail navigation: WebKit::WKNavigation!, withError error: any Swift::Error)
+  @_Concurrency::MainActor @preconcurrency @objc public func webView(_ webView: WebKit::WKWebView, didFailProvisionalNavigation navigation: WebKit::WKNavigation!, withError error: any Swift::Error)
+  @_Concurrency::MainActor @preconcurrency @objc override dynamic public func viewWillDisappear(_ animated: Swift::Bool)
   @objc deinit
-  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
-  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @_Concurrency::MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift::String?, bundle nibBundleOrNil: Foundation::Bundle?)
+  @_Concurrency::MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation::NSCoder)
 }
-@_hasMissingDesignatedInitializers @objc public class DTVkycException : ObjectiveC.NSObject, Swift.Error {
-  @objc public func getErrorCode() -> Foundation.NSNumber?
-  @objc public func getErrorMessage() -> Foundation.NSString?
+@_hasMissingDesignatedInitializers @objc public class DTVkycException : ObjectiveC::NSObject, Swift::Error {
+  @objc public func getErrorCode() -> Foundation::NSNumber?
+  @objc public func getErrorMessage() -> Foundation::NSString?
   @objc deinit
 }
-public enum ErrorCode : Swift.Int {
+public enum ErrorCode : Swift::Int {
   case INVALID_INPUT, INIT_NOT_CALLED, USER_CANCELLED, INTERNAL_ERROR, PERMISSION_NOT_GRANTED, SERVER_ERROR, INTERNET_NOT_CONNECTED, URL_EXPIRED
-  public init?(rawValue: Swift.Int)
-  public typealias RawValue = Swift.Int
-  public var rawValue: Swift.Int {
+  public init?(rawValue: Swift::Int)
+  public typealias RawValue = Swift::Int
+  public var rawValue: Swift::Int {
     get
   }
 }
-public enum ErrorMessage : Swift.String {
+public enum ErrorMessage : Swift::String {
   case INVALID_INPUT
   case INIT_NOT_CALLED
   case USER_CANCELLED
@@ -71,45 +100,78 @@ public enum ErrorMessage : Swift.String {
   case SERVER_ERROR
   case INTERNET_NOT_CONNECTED
   case URL_EXPIRED
-  public init?(rawValue: Swift.String)
-  public typealias RawValue = Swift.String
-  public var rawValue: Swift.String {
+  public init?(rawValue: Swift::String)
+  public typealias RawValue = Swift::String
+  public var rawValue: Swift::String {
     get
   }
 }
-@_inheritsConvenienceInitializers @objc public class DTVKYCSDK : ObjectiveC.NSObject {
-  @objc public static func initialize(clientId: Swift.String, clientSecret: Swift.String, environment: DTVKYC.DTEnvironment) throws
+@_inheritsConvenienceInitializers @objc public class DTVKYCSDK : ObjectiveC::NSObject {
+  @objc public static func initialize(clientId: Swift::String, clientSecret: Swift::String, environment: DTVKYC::DTEnvironment) throws
+  @objc public static func initialize(environment: DTVKYC::DTEnvironment) throws
   @objc override dynamic public init()
   @objc deinit
 }
-@objc public enum DTEnvironment : Swift.Int {
+@objc public enum DTEnvironment : Swift::Int {
   case PRODUCTION
   case UAT
   case STAGE
   case DEV
 }
-extension DTVKYC.DTEnvironment : Swift.RawRepresentable {
-  public typealias RawValue = Swift.String
-  public init?(rawValue: DTVKYC.DTEnvironment.RawValue)
-  public var rawValue: DTVKYC.DTEnvironment.RawValue {
+extension DTVKYC::DTEnvironment : Swift::RawRepresentable {
+  public typealias RawValue = Swift::String
+  public init?(rawValue: DTVKYC::DTEnvironment.DTVKYC::RawValue)
+  public var rawValue: DTVKYC::DTEnvironment.DTVKYC::RawValue {
     get
   }
 }
-@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class LocationHelper : ObjectiveC.NSObject, CoreLocation.CLLocationManagerDelegate {
-  public var locationUpdated: ((CoreLocation.CLLocation) -> Swift.Void)?
-  public var permissionDenied: (() -> Swift.Void)?
-  public static let shared: DTVKYC.LocationHelper
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class LocationHelper : ObjectiveC::NSObject, CoreLocation::CLLocationManagerDelegate {
+  public var locationUpdated: ((_LocationEssentials::CLLocation) -> Swift::Void)?
+  public var permissionDenied: (() -> Swift::Void)?
+  public var authorizationChanged: ((CoreLocation::CLAuthorizationStatus) -> Swift::Void)?
+  public static let shared: DTVKYC::LocationHelper
   public func requestLocationAccess()
-  @objc public func locationManager(_ manager: CoreLocation.CLLocationManager, didChangeAuthorization status: CoreLocation.CLAuthorizationStatus)
-  @objc public func locationManager(_ manager: CoreLocation.CLLocationManager, didUpdateLocations locations: [CoreLocation.CLLocation])
-  @objc public func locationManager(_ manager: CoreLocation.CLLocationManager, didFailWithError error: any Swift.Error)
+  @objc public func locationManager(_ manager: CoreLocation::CLLocationManager, didChangeAuthorization status: CoreLocation::CLAuthorizationStatus)
+  @available(iOS 14.0, *)
+  @objc public func locationManagerDidChangeAuthorization(_ manager: CoreLocation::CLLocationManager)
+  @objc public func locationManager(_ manager: CoreLocation::CLLocationManager, didUpdateLocations locations: [_LocationEssentials::CLLocation])
+  @objc public func locationManager(_ manager: CoreLocation::CLLocationManager, didFailWithError error: any Swift::Error)
   @objc deinit
 }
-extension DTVKYC.ErrorCode : Swift.Equatable {}
-extension DTVKYC.ErrorCode : Swift.Hashable {}
-extension DTVKYC.ErrorCode : Swift.RawRepresentable {}
-extension DTVKYC.ErrorMessage : Swift.Equatable {}
-extension DTVKYC.ErrorMessage : Swift.Hashable {}
-extension DTVKYC.ErrorMessage : Swift.RawRepresentable {}
-extension DTVKYC.DTEnvironment : Swift.Equatable {}
-extension DTVKYC.DTEnvironment : Swift.Hashable {}
+public enum ErrorType {
+  case noInternet
+  case httpError
+  case defaultError
+  case locationRequired
+  case permissionLost
+  public static func == (a: DTVKYC::ErrorType, b: DTVKYC::ErrorType) -> Swift::Bool
+  public func hash(into hasher: inout Swift::Hasher)
+  public var hashValue: Swift::Int {
+    get
+  }
+}
+public protocol ErrorDialogListener : AnyObject {
+  func retryTapped()
+  func cancelTapped()
+  func backPressed()
+  func permissionLost()
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency::MainActor @preconcurrency public class ErrorDialogVC : UIKit::UIViewController {
+  @_Concurrency::MainActor @preconcurrency weak public var listener: (any DTVKYC::ErrorDialogListener)?
+  @_Concurrency::MainActor @preconcurrency public static func instantiate(errorType: DTVKYC::ErrorType, listener: any DTVKYC::ErrorDialogListener) -> DTVKYC::ErrorDialogVC
+  @_Concurrency::MainActor @preconcurrency @objc override dynamic public func viewDidLoad()
+  @_Concurrency::MainActor @preconcurrency public func stopCountdown()
+  @objc deinit
+  @_Concurrency::MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift::String?, bundle nibBundleOrNil: Foundation::Bundle?)
+  @_Concurrency::MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation::NSCoder)
+}
+extension DTVKYC::ErrorCode : Swift::Equatable {}
+extension DTVKYC::ErrorCode : Swift::Hashable {}
+extension DTVKYC::ErrorCode : Swift::RawRepresentable {}
+extension DTVKYC::ErrorMessage : Swift::Equatable {}
+extension DTVKYC::ErrorMessage : Swift::Hashable {}
+extension DTVKYC::ErrorMessage : Swift::RawRepresentable {}
+extension DTVKYC::DTEnvironment : Swift::Equatable {}
+extension DTVKYC::DTEnvironment : Swift::Hashable {}
+extension DTVKYC::ErrorType : Swift::Equatable {}
+extension DTVKYC::ErrorType : Swift::Hashable {}
